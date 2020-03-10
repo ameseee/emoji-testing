@@ -12,9 +12,9 @@ class ViewController: UIViewController {
     let emojis = ["😂": "laughing", "🥳": "celebrating", "😩": "sad"]
     
     let customMessages = [
-        "laughing" : ["hahahah", "hehehehe", "that's hilarious"],
-        "celebrating" : ["cheers", "whoohoo", "you go!"],
-        "sad" : ["it's going to be ok", "love you", "do you need anything?"]
+        "laughing" : ["hahahah", "hehehehe", "that's hilarious", "muhahaha"],
+        "celebrating" : ["cheers", "whoohoo", "you go!", "party!"],
+        "sad" : ["it's going to be ok", "love you", "do you need anything?", "bumma"]
     ]
     
     override func viewDidLoad() {
