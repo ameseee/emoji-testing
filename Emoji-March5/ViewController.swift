@@ -29,9 +29,9 @@ class ViewController: UIViewController {
         let emojiMessage = options[0]
         print(emojiMessage)
     
-//        let alertController = UIAlertController(title: emojis[selectedEmotion], message: options[randomNum], preferredStyle: UIAlertController.Style.alert)
-//        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-//        present(alertController, animated: true, completion: nil)
+        let alertController = UIAlertController(title: emojis[selectedEmotion], message: options[randomNum], preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        present(alertController, animated: true, completion: nil)
     }
 
 }
